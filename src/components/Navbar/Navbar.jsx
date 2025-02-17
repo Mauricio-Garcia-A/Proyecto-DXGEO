@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router'
 import './Navbar.scss'
 
 export default function Navbar() {
@@ -8,13 +9,13 @@ export default function Navbar() {
         <nav id="header-menu">
           <ul className="menu">
             <li>
-              <a href="/info" className="hover-effect">Home</a>
+              <NavLink to="/" className="hover-effect">Home</NavLink>
             </li>
             <li>
-              <a href="/archivo" className="hover-effect">SERVICIOS</a>
+              <NavLink to="/Servicios" className="hover-effect">SERVICIOS</NavLink>
             </li>
             <li>
-              <a href="/archivo" className="hover-effect">CONTACTOS</a>
+              <a href='#formas-de-contacto' className="hover-effect">CONTACTOS</a>
             </li>
           </ul>
         </nav>
