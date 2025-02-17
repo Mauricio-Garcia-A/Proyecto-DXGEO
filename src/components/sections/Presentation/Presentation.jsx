@@ -11,8 +11,8 @@ export default function Presentation() {
         <a className="hero-button">MAS INFO</a>
       </div>
 
-      <video className="hero-video main" src="./video5.mp4" autoPlay loop muted />
-      <video className="hero-video blur" src="./video5.mp4" autoPlay loop muted />
+      <video className="hero-video main" src="./video.webm" autoPlay loop muted />
+      <video className="hero-video blur" src="./video.webm" autoPlay loop muted />
     </div>
   )
 }
