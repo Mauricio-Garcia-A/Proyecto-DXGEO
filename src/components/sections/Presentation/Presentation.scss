@@ -140,3 +140,11 @@
     opacity: 0.9;
   }
 }
+
+.pie-presentacion {
+  height: 120px;
+  background: rgb(0,10,20);
+  background: linear-gradient(0deg, rgb(0, 10, 20) 15%, rgb(15, 25, 35) 50%, rgba(13, 114, 185, 0) 97%);
+  z-index: 10;
+  
+}

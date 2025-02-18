@@ -9,7 +9,7 @@ export default function Navbar() {
         <nav id="header-menu">
           <ul className="menu">
             <li>
-              <NavLink to="/" className="hover-effect">Home</NavLink>
+              <NavLink to="/Proyecto-DXGEO/" className="hover-effect">Home</NavLink>
             </li>
             <li>
               <NavLink to="/Servicios" className="hover-effect">SERVICIOS</NavLink>
