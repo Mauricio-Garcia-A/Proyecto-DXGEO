@@ -1,3 +1,5 @@
+import HeaderServices from '../components/sections/HeaderServices/HeaderServices'
+import ListServices from '../components/sections/ListServices/ListServices'
 import useSEO from '../hooks/useSEO'
 
 export default function Services() {
@@ -5,7 +7,8 @@ export default function Services() {
 
   return (
     < div style={{ width:'100%', height:'1000px'}}>
-      Hola mundo
+      <HeaderServices />
+      <ListServices />
     </div>
   )
 }
