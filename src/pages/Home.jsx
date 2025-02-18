@@ -1,5 +1,5 @@
 import Presentation from "../components/sections/Presentation/Presentation"
-import SectionItem from "../components/sections/SectionItem/SectionItem"
+import SectionInfo from "../components/sections/SectionInfo/SectionInfo"
 import useSEO from "../hooks/useSEO"
 
 export default function Home() {
@@ -8,7 +8,7 @@ export default function Home() {
   return (
     < div style={{ width:'100%'}}>
       <Presentation />
-      <SectionItem />
+      <SectionInfo />
     </div>
   )
 }
