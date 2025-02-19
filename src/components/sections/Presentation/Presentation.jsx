@@ -3,9 +3,9 @@ import './Presentation.scss'
 export default function Presentation() {
   return (
     <>
-      <section className="hero">
-        <div className="hero-content">
-          <section className="hero-text">
+      <section className="container-presentacion">
+        <div className="contenido-presentacion">
+          <section className="conteiner-text-presentacion">
             <img src="./titulo-logo-v2.svg" alt="" className='img-titulo-logo' />
             <p className="subtitle">Sistema de informacion geografica - teledetecciones - asesor y piloto de dron</p>
           </section>
@@ -14,10 +14,9 @@ export default function Presentation() {
 
         <video className="hero-video main" src="./video.webm" autoPlay loop muted />
         <video className="hero-video blur" src="./video.webm" autoPlay loop muted />
+      
       </section>
-      <div className='pie-presentacion'>
-        
-      </div>
+      <div className='pie-presentacion' />
     </>
 
   )
