@@ -3,6 +3,11 @@ import './SectionInfo.scss'
 export default function SectionInfo() {
   return (
     <section className='section-info' id='seccion-info'>
+      <img src="./satelite1.svg" alt="" className='img-bg1' />
+      <img src="./satelite2.svg" alt="" className='img-bg2' />
+      <img src="./orvita1.svg" alt="" className='img-bg3' />
+
+
       <div className='conteiner-item'>
         <article>
           <h1>BIENBENIDOS/AS</h1>

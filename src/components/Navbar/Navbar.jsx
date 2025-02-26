@@ -8,7 +8,7 @@ export default function Navbar() {
         <nav id="header-menu">
           <ul className="menu">
             <li>
-              <NavLink to="/Proyecto-DXGEO/" className="hover-effect" onClick={() => window.scrollTo(0, 0)}>Home</NavLink>
+              <NavLink to="/Proyecto-DXGEO/" className="hover-effect" onClick={() => window.scrollTo(0, 0)}>INICIO</NavLink>
             </li>
             <li>
               <NavLink to="/Servicios" className="hover-effect" onClick={() => window.scrollTo(0, 0)}>SERVICIOS</NavLink>

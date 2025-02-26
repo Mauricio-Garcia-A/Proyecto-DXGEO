@@ -1,0 +1,49 @@
+{
+  "items": [
+    {
+      "titulo": "Smartphone X Pro",
+      "descripcion": [
+        "El Smartphone X Pro redefine la experiencia móvil con su pantalla OLED de 6.7 pulgadas y tasa de refresco de 120Hz, proporcionando imágenes nítidas y fluidas.",
+        "Equipado con un procesador de última generación, garantiza un rendimiento excepcional incluso en las aplicaciones más exigentes.",
+        "La batería de larga duración y la carga rápida aseguran que puedas disfrutar de tu dispositivo todo el día sin interrupciones."
+      ],
+      "URLimagen": "https:/http://www.geogestiontech.com.ar/--/portada/imagenes/intro.jpg",
+      "ventajas": [
+        "Pantalla OLED con colores vibrantes y negros profundos.",
+        "Procesador ultra rápido para multitarea eficiente.",
+        "Sistema de cámaras avanzado con IA para fotos espectaculares.",
+        "Carga rápida de 65W para minimizar el tiempo de espera."
+      ]
+    },
+    {
+      "titulo": "Laptop UltraBook 15",
+      "descripcion": [
+        "La UltraBook 15 combina portabilidad y potencia en un diseño delgado y elegante, ideal para profesionales y estudiantes.",
+        "Cuenta con una pantalla de alta resolución de 15.6 pulgadas y un teclado retroiluminado para mayor comodidad en cualquier entorno.",
+        "Su sistema de refrigeración optimizado permite un rendimiento estable incluso en largas sesiones de trabajo."
+      ],
+      "URLimagen": "https://example.com/laptop-ultrabook-15.jpg",
+      "ventajas": [
+        "Diseño ligero y ultradelgado para máxima portabilidad.",
+        "Batería de hasta 12 horas de duración.",
+        "SSD de alta velocidad para un arranque instantáneo.",
+        "Teclado ergonómico y pantalla antirreflejo."
+      ]
+    },
+    {
+      "titulo": "Auriculares Inalámbricos ProSound",
+      "descripcion": [
+        "Los ProSound ofrecen una calidad de sonido inigualable con tecnología de cancelación activa de ruido para una experiencia de audio inmersiva.",
+        "Con un diseño ergonómico y materiales premium, garantizan comodidad incluso durante largas sesiones de uso.",
+        "La conectividad Bluetooth 5.2 asegura una conexión estable y sin interrupciones."
+      ],
+      "URLimagen": "https://example.com/auriculares-prosound.jpg",
+      "ventajas": [
+        "Cancelación activa de ruido para un sonido puro y envolvente.",
+        "Hasta 30 horas de autonomía con el estuche de carga.",
+        "Controles táctiles intuitivos para mayor comodidad.",
+        "Resistencia al agua IPX4, ideal para uso en exteriores."
+      ]
+    }
+  ]
+}

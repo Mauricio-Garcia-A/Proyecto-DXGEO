@@ -1,97 +1,38 @@
-.hero {
+.container-header-services {
   width: 100%;
   position: relative;
   min-height: 560px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
 
-  .hero-content {
-    position: absolute;
-    inset: 0;
-    height: 100%;
+
+  .contennido-header-services {
     display: flex;
     flex-direction: column;
+    justify-content: start;
     align-items: center;
-    justify-content: center;
-    gap: 5rem;
-    z-index: 10;
-  }
+    gap: 1rem;
+    margin-top: 60px;
+    padding-top: 30px;
 
-  .hero-text {
-    background: radial-gradient(ellipse, rgba(240, 240, 240, 0.188) 50%, rgba(255, 255, 255, 0.133) 55%, rgba(0, 0, 0, 0) 75%);    display: flex;
-   flex-direction: column;
-   justify-content: start;
-   align-items: center;
-    gap: 2rem;
-    animation: fade-down 2s ease;
-    color: aliceblue;
-    
+    color: white;
+    background: radial-gradient(ellipse, rgba(240, 240, 240, 0.138) 50%, rgba(255, 255, 255, 0.084) 55%, rgba(0, 0, 0, 0) 65%, rgba(223, 15, 15, 0) 90%);
+    display: flex;
+    //background: red;
+    z-index: 10;
+
     .img-titulo-logo {
       filter: drop-shadow(0 0px 3px rgba(243, 243, 243, 0.977));
-      
-      transform: scale(0.8);
-      
-     
+      max-width: 800px;
+      width: 90%;
 
-
-      @media (min-width: 768px) {
-        transform: scale(1.1);
-
-      }
-
-      @media (min-width: 1024px) {
-        transform: scale(1.5);
-
-      }
     }
 
-    .subtitle {
-      font-family: "Jura", sans-serif;
-      text-transform: uppercase;
-      text-align: center;
-     padding: 0 1rem;
-      font-size: 0.7rem;
-      z-index: 2;
-      text-shadow: 2px 2px 4px #000136;
-      width: 70vw;
-
-      @media (min-width: 768px) {
-        font-size: 0.7rem;
-      }
-
-      @media (min-width: 1024px) {
-        font-size: 1rem;
-      }
-    }
   }
 
-  .hero-button {
-    display: inline-block;
-    padding: 0.75rem 1.5rem;
-    font-size: 0.75rem;
-    font-weight: 500;
-    text-transform: uppercase;
-    border: 1px solid rgba(255, 255, 255, 0.296);
-    border-radius: 999px;
-    text-decoration: none;
-    transition: all 0.3s ease;
-    cursor: pointer;
-    text-align: center;
-    color: #3a959fa1;
-
-    @media (min-width: 768px) {
-      font-size: 1.25rem;
-      padding: 1rem 2rem;
-    }
-
-    &:hover {
-      color: #3A959F;
-
-      background: rgba(0, 0, 0, 0.4);
-      box-shadow: 0 0px 15px rgba(255, 255, 255, 0.496);
-      text-shadow: 0 0px 15px rgba(255, 255, 255, 0.73);
-    }
-  }
-
-  .hero-video {
+  .hero-img {
     width: 100%;
     height: 90vh;
     min-height: 560px;
@@ -99,13 +40,14 @@
     object-position: top;
     animation: fade-in 3s ease;
     position: absolute;
-    background: rgb(172,139,97);
-    background: linear-gradient(90deg, rgba(172,139,97,1) 0%, rgba(149,122,96,1) 25%, rgba(112,97,94,1) 53%, rgba(73,77,81,1) 78%, rgba(59,69,76,1) 100%);
-  
+    background: rgb(172, 139, 97);
+    background: linear-gradient(90deg, #d4b27e 0%, rgb(237, 198, 158) 25%, #ffeac9 53%, #fbd8ab 78%, #e1c494 100%);
+
 
     &.main {
-      padding-top: 30px;
+      padding-top: 60px;
       clip-path: polygon(100% 0, 100% 45%, 50% 80%, 0 45%, 0 0);
+      filter: contrast(1.2);
     }
 
     &.blur {
@@ -113,7 +55,7 @@
       bottom: -8rem;
       z-index: -40;
       filter: blur(6px);
-      
+
     }
   }
 }
@@ -124,6 +66,7 @@
     opacity: 0;
     transform: translateY(-20px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -134,6 +77,7 @@
   from {
     opacity: 0;
   }
+
   to {
     opacity: 0.9;
   }
@@ -141,8 +85,8 @@
 
 .pie-presentacion {
   height: 120px;
-  background: rgb(0,10,20);
+  background: rgb(0, 10, 20);
   background: linear-gradient(0deg, rgb(0, 10, 20) 10%, rgba(15, 25, 35, 0.423) 80%, rgba(13, 113, 185, 0) 97%);
   z-index: 10;
-  
+
 }

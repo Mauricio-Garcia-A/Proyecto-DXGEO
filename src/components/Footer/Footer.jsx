@@ -78,11 +78,11 @@ const formasDeContacto = [
         </article>
         <article className='section-contact'>
             
-            <h1>Horarios de Atencion</h1>
-            <b><IconCalendar /> LUN a VIE</b>
-            <div><p>9hs a 18hs</p></div>
+            <h1>HORARIOS DE ATENCION</h1>
+            <b><IconCalendar /> LUNES a VIERNES</b>
+            <div><p>9:00hs a 18:00hs</p></div>
             <b><IconCalendar /> SAB</b>
-            <div><p>9hs a 12hs</p></div>
+            <div><p>9:00hs a 12:00hs</p></div>
         </article>
     </section>
     <footer>

@@ -27,7 +27,7 @@
       padding-top: 30px;
 
       color: white;
-      background: radial-gradient(ellipse, rgba(240, 240, 240, 0.188) 50%, rgba(255, 255, 255, 0.133) 55%, rgba(0, 0, 0, 0) 75%);
+      background: radial-gradient(ellipse, rgba(240, 240, 240, 0.138) 50%, rgba(255, 255, 255, 0.084) 55%, rgba(0, 0, 0, 0) 65%, rgba(223, 15, 15, 0) 90%);
       display: flex;
       //background: red;
 
@@ -55,7 +55,7 @@
 
   .hero-button {
     display: inline-block;
-    padding: 0.75rem 1.5rem;
+    padding: 1rem 2rem;
     font-size: 0.75rem;
     font-weight: 500;
     text-transform: uppercase;
@@ -67,10 +67,7 @@
     text-align: center;
     color: #3a959fa1;
 
-    @media (min-width: 768px) {
-      font-size: 1.25rem;
-      padding: 1rem 2rem;
-    }
+  
 
     &:hover {
       color: #3A959F;
@@ -89,12 +86,12 @@
     object-position: top;
     animation: fade-in 3s ease;
     position: absolute;
-    background: rgb(172, 139, 97);
-    background: linear-gradient(90deg, rgba(172, 139, 97, 1) 0%, rgba(149, 122, 96, 1) 25%, rgba(112, 97, 94, 1) 53%, rgba(73, 77, 81, 1) 78%, rgba(59, 69, 76, 1) 100%);
+    background: #937A5B;
+    background: linear-gradient(90deg, #c09a72 0%, #937d71 25%, #756766 53%, #4c5056 78%, #444c54 100%);
 
 
     &.main {
-      padding-top: 30px;
+      padding-top: 60px;
       clip-path: polygon(100% 0, 100% 45%, 50% 80%, 0 45%, 0 0);
     }
 
