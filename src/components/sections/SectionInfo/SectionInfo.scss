@@ -39,6 +39,14 @@
     left: 5%;
     min-width: 600px;
   }
+  .img-bg4 {
+    position: absolute;
+    width: 80%;
+    z-index: 1;
+    bottom: 0px;
+    max-width: 1400px;
+    min-width: 300px;
+  }
 
   .conteiner-item {
     z-index: 3;
@@ -144,10 +152,57 @@
       }
 
     }
+  }
+  .perfil-profecional-section {
+   
 
+    .container-perfil {
+      background: rgb(87,190,143);
+      background: linear-gradient(60deg, rgba(87, 190, 144, 0.759) 0%, rgba(87, 190, 144, 0.54) 10%, rgba(24, 32, 39, 0.381) 29%, rgba(24, 32, 39, 0.627) 70%, rgba(87, 190, 144, 0.348) 100%);      width: 100%;
+      height: 200px;
+      border-radius: 20px;
+      display: flex;
+      justify-content: space-around;
+      margin-top: 100px;
+      margin-bottom: 100px;
+   
+      .sec-perfil-1 {
+        position: relative;
+        width: 300px;
 
+        img {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width: 250px;
+        }
+      }
+      .sec-perfil-2 {
+        position: relative;
+        width: 300px;
+        text-align: center;
+        p {
+          font-size: 12pt;
+        }
+        img {
+          position: absolute;
+          bottom: 0;
+          left: -250px;
+          width: 300px;
+        }
+      }
+      .sec-perfil-3 {
+        position: relative;
+        width: 300px;
 
-
+        img {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width: 350px;
+        }
+      }
+    }
 
   }
 }

@@ -28,6 +28,7 @@ export default function SectionInfo() {
       <img src="./satelite1.svg" alt="" className='img-bg1' />
       <img src="./satelite2.svg" alt="" className='img-bg2' />
       <img src="./orvita1.svg" alt="" className='img-bg3' />
+      <img src="./decoration1.svg" alt="" className='img-bg4' />
 
 
       <div className='conteiner-item'>
@@ -54,6 +55,27 @@ export default function SectionInfo() {
               <ItemInfo key={index} title={item.title} icon={item.icon} description={item.description} />
             ))
           }
+        </article>
+        <article className='perfil-profecional-section'>
+          <h2>Profecional acargo</h2>
+          <div className='container-perfil'>
+            <div className='sec-perfil-1'>
+              <img src="./bg-perfil-1.png" alt="" />
+            </div>
+            <div className='sec-perfil-2'>
+              <img src="./foto-perfil.png" alt="" />
+              <h2>Facundo Iglesias</h2>
+              <p>Lorem ipsum dolor sit amet consectetu.</p>
+              <p>Adipisicing elit. Aliquam possimus</p>
+              <button>Mas info</button>
+            </div>
+            <div className='sec-perfil-3'>
+            <img src="./bg-perfil-2.webp" alt="" />
+            </div>
+          </div>
+          <footer>
+            <img src="" alt="" />
+          </footer>
         </article>
       </div>
     </section>
