@@ -12,8 +12,10 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/Proyecto-DXGEO/" element={<Home />} />
-        <Route path="/Servicios" element={<Services />} />
+        <Route path="/Proyecto-DXGEO/Servicios" element={<Services />} />
+        <Route path="/Proyecto-DXGEO/*" element={<div>ERROR</div>} />
         <Route path="*" element={<div>ERROR</div>} />
+
       </Routes>
       <Footer />
     </>
