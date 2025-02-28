@@ -9,14 +9,14 @@ export default function SectionInfo() {
   // eslint-disable-next-line react/prop-types
   const ItemInfo = ({ key, title, icon, description }) => {
     return <div className='item-Info' key={key}>
-      <header>
+      <div className='header-item'>
         <hr />
-        <div>
-        <img src={`./${icon}`} alt="" />
+        <div >
+          <img src={`./${icon}`} alt="" />
 
         </div>
         <hr />
-      </header>
+      </div>
       <h3>{title}</h3>
       <p> {description} </p>
 
@@ -24,26 +24,29 @@ export default function SectionInfo() {
   }
 
   return (
-    <section className='section-info' id='seccion-info'>
-      <img src="./satelite1.svg" alt="" className='img-bg1' />
-      <img src="./satelite2.svg" alt="" className='img-bg2' />
-      <img src="./orvita1.svg" alt="" className='img-bg3' />
-      <img src="./decoration1.svg" alt="" className='img-bg4' />
-
-
-      <div className='conteiner-item'>
-        <article>
+    <div className='container-information' id='seccion-info'>
+      <section className='section-standar section-introduction' >
+        <img src="./satelite1.svg" alt="" className='img-bg1' />
+        <header>
           <h1>{sectionIntroduction.title}</h1>
+        </header>
+        <article>
           {
             sectionIntroduction.description.map((paragraph, index) => (
               <p key={index} dangerouslySetInnerHTML={{ __html: paragraph }} />
             ))
           }
-
         </article>
+      </section>
 
-        <article>
+      <section className='section-standar section-information'>
+        <img src="./satelite2.svg" alt="" className='img-bg2' />
+        <img src="./orvita1.svg" alt="" className='img-bg3' />
+
+        <header>
           <h2>{sectionInformation.title}</h2>
+        </header>
+        <article>
           {
             sectionInformation.description.map((paragraph, index) => (
               <p key={index} dangerouslySetInnerHTML={{ __html: paragraph }} />
@@ -56,28 +59,31 @@ export default function SectionInfo() {
             ))
           }
         </article>
+      </section>
+
+      <section className='section-standar section-perfil-profecional'>
+        <header>
+          <h2>Profecional a cargo</h2>
+        </header>
+
         <article className='perfil-profecional-section'>
-          <h2>Profecional acargo</h2>
+
           <div className='container-perfil'>
-            <div className='sec-perfil-1'>
-              <img src="./bg-perfil-1.png" alt="" />
-            </div>
+            <img src="./bg-perfil-3.png" alt="" className='img-perfil-1' />
+            <img src="./bg-perfil-2.webp" alt="" className='img-perfil-2' />
+            <img src="./foto-perfil.png" alt="" className='img-perfil-3' />
             <div className='sec-perfil-2'>
-              <img src="./foto-perfil.png" alt="" />
               <h2>Facundo Iglesias</h2>
               <p>Lorem ipsum dolor sit amet consectetu.</p>
               <p>Adipisicing elit. Aliquam possimus</p>
               <button>Mas info</button>
             </div>
-            <div className='sec-perfil-3'>
-            <img src="./bg-perfil-2.webp" alt="" />
-            </div>
           </div>
-          <footer>
-            <img src="" alt="" />
-          </footer>
         </article>
-      </div>
-    </section>
+      </section>
+      <footer>
+        <img src="./decoration1.svg" alt="" className='img-bg4' />
+      </footer>
+    </div>
   )
 }
