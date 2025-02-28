@@ -5,6 +5,7 @@ export default function SectionInfo() {
 
   const sectionIntroduction = data.sections[0]
   const sectionInformation = data.sections[1]
+  const sectionPerfilProfecional = data.sections[2]
 
   // eslint-disable-next-line react/prop-types
   const ItemInfo = ({ key, title, icon, description }) => {
@@ -63,7 +64,7 @@ export default function SectionInfo() {
 
       <section className='section-standar section-perfil-profecional'>
         <header>
-          <h2>Profecional a cargo</h2>
+          <h2>{sectionPerfilProfecional.title}</h2>
         </header>
 
         <article className='perfil-profecional-section'>
@@ -71,12 +72,15 @@ export default function SectionInfo() {
           <div className='container-perfil'>
             <img src="./bg-perfil-3.png" alt="" className='img-perfil-1' />
             <img src="./bg-perfil-2.webp" alt="" className='img-perfil-2' />
-            <img src="./foto-perfil.png" alt="" className='img-perfil-3' />
-            <div className='sec-perfil-2'>
-              <h2>Facundo Iglesias</h2>
-              <p>Lorem ipsum dolor sit amet consectetu.</p>
-              <p>Adipisicing elit. Aliquam possimus</p>
-              <button>Mas info</button>
+            <img src="./foto-perfil-2.png" alt="" className='img-perfil-3' />
+            <div className='sec-perfil-text'>
+              <h2>{sectionPerfilProfecional.name}</h2>
+              {
+            sectionPerfilProfecional.description.map((paragraph, index) => (
+              <p key={index} dangerouslySetInnerHTML={{ __html: paragraph }} />
+            ))
+          }
+              <button className='hero-button-perfil'>Mas info</button>
             </div>
           </div>
         </article>
