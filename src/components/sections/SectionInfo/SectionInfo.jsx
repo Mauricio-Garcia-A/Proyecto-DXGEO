@@ -32,11 +32,27 @@ export default function SectionInfo() {
           <h1>{sectionIntroduction.title}</h1>
         </header>
         <article>
-          {
-            sectionIntroduction.description.map((paragraph, index) => (
-              <p key={index} dangerouslySetInnerHTML={{ __html: paragraph }} />
-            ))
-          }
+        <div className='container-info'>
+            {
+              sectionIntroduction.description.map((paragraph, index) => (
+                <p key={index} dangerouslySetInnerHTML={{ __html: paragraph }} />
+              ))
+            }
+          </div>
+
+          
+            <div className="container-video">
+              
+            <iframe
+              src="https://www.youtube.com/embed/8gU_zHnDrrM"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+            
+           
+          </div>
         </article>
       </section>
 
@@ -76,10 +92,10 @@ export default function SectionInfo() {
             <div className='sec-perfil-text'>
               <h2>{sectionPerfilProfecional.name}</h2>
               {
-            sectionPerfilProfecional.description.map((paragraph, index) => (
-              <p key={index} dangerouslySetInnerHTML={{ __html: paragraph }} />
-            ))
-          }
+                sectionPerfilProfecional.description.map((paragraph, index) => (
+                  <p key={index} dangerouslySetInnerHTML={{ __html: paragraph }} />
+                ))
+              }
               <button className='hero-button-perfil'>Mas info</button>
             </div>
           </div>
