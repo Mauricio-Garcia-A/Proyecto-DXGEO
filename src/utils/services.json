@@ -1,48 +1,94 @@
 {
   "items": [
     {
-      "titulo": "Smartphone X Pro",
-      "descripcion": [
-        "El Smartphone X Pro redefine la experiencia móvil con su pantalla OLED de 6.7 pulgadas y tasa de refresco de 120Hz, proporcionando imágenes nítidas y fluidas.",
-        "Equipado con un procesador de última generación, garantiza un rendimiento excepcional incluso en las aplicaciones más exigentes.",
-        "La batería de larga duración y la carga rápida aseguran que puedas disfrutar de tu dispositivo todo el día sin interrupciones."
-      ],
-      "URLimagen": "https:/http://www.geogestiontech.com.ar/--/portada/imagenes/intro.jpg",
-      "ventajas": [
-        "Pantalla OLED con colores vibrantes y negros profundos.",
-        "Procesador ultra rápido para multitarea eficiente.",
-        "Sistema de cámaras avanzado con IA para fotos espectaculares.",
-        "Carga rápida de 65W para minimizar el tiempo de espera."
+      "title": "Clasificación de cultivos",
+      "description": [ "Explote el poder visual de los datos geoespaciales con los mapas de clasificación de cultivos..."],
+      "image": "https://eos.com/wp-content/uploads/2024/05/Frame-146716185.png.webp",
+      "icon": "https://eos.com/wp-content/uploads/2024/05/icon-1.svg",
+      "link": "https://eos.com/es/products/crop-monitoring/custom-solutions/crops-classification/",
+      "advantages": [
+        "Identificación precisa de cultivos mediante imágenes satelitales.",
+        "Colores asignados a cada cultivo para fácil interpretación.",
+        "Funciona para cualquier tamaño de superficie agrícola.",
+        "Integración con datos SAR y ópticos para mayor precisión."
       ]
     },
     {
-      "titulo": "Laptop UltraBook 15",
-      "descripcion": [
-        "La UltraBook 15 combina portabilidad y potencia en un diseño delgado y elegante, ideal para profesionales y estudiantes.",
-        "Cuenta con una pantalla de alta resolución de 15.6 pulgadas y un teclado retroiluminado para mayor comodidad en cualquier entorno.",
-        "Su sistema de refrigeración optimizado permite un rendimiento estable incluso en largas sesiones de trabajo."
-      ],
-      "URLimagen": "https://example.com/laptop-ultrabook-15.jpg",
-      "ventajas": [
-        "Diseño ligero y ultradelgado para máxima portabilidad.",
-        "Batería de hasta 12 horas de duración.",
-        "SSD de alta velocidad para un arranque instantáneo.",
-        "Teclado ergonómico y pantalla antirreflejo."
+      "title": "Predicción del rendimiento de los cultivos",
+      "description": [ "Adelántese a los acontecimientos con la predicción del rendimiento de los cultivos..."],
+      "image": "https://eos.com/wp-content/uploads/2024/05/solution-2.jpg.webp",
+      "icon": "https://eos.com/wp-content/uploads/2024/05/icon-2.svg",
+      "link": "https://eos.com/es/products/crop-monitoring/custom-solutions/yield-prediction/",
+      "advantages": [
+        "Predicción de rendimiento con hasta un 95% de precisión.",
+        "Optimización de cultivos para maximizar beneficios.",
+        "Análisis basado en datos espaciales y mediciones en campo.",
+        "Reducción del impacto medioambiental mediante planificación estratégica."
       ]
     },
     {
-      "titulo": "Auriculares Inalámbricos ProSound",
-      "descripcion": [
-        "Los ProSound ofrecen una calidad de sonido inigualable con tecnología de cancelación activa de ruido para una experiencia de audio inmersiva.",
-        "Con un diseño ergonómico y materiales premium, garantizan comodidad incluso durante largas sesiones de uso.",
-        "La conectividad Bluetooth 5.2 asegura una conexión estable y sin interrupciones."
-      ],
-      "URLimagen": "https://example.com/auriculares-prosound.jpg",
-      "ventajas": [
-        "Cancelación activa de ruido para un sonido puro y envolvente.",
-        "Hasta 30 horas de autonomía con el estuche de carga.",
-        "Controles táctiles intuitivos para mayor comodidad.",
-        "Resistencia al agua IPX4, ideal para uso en exteriores."
+      "title": "Monitorización de la dinámica de la cosecha",
+      "description": [ "Obtenga una perspectiva más profunda del progreso de las operaciones de cosecha..."],
+      "image": "https://eos.com/wp-content/uploads/2024/05/solution-3.jpg.webp",
+      "icon": "https://eos.com/wp-content/uploads/2024/05/icon-3.svg",
+      "link": "https://eos.com/es/products/crop-monitoring/custom-solutions/harvest-monitoring/",
+      "advantages": [
+        "Monitoreo remoto del progreso de la cosecha en tiempo real.",
+        "Algoritmo avanzado para calcular el contenido de materia seca.",
+        "Optimización del proceso de cosecha con datos precisos.",
+        "Mayor eficiencia en la planificación y logística de recolección."
+      ]
+    },
+    {
+      "title": "Detección de los límites del campo",
+      "description": [ "Obtenga al instante una vista desde arriba de sus campos..."],
+      "image": "https://eos.com/wp-content/uploads/2024/05/solution-4.jpg.webp",
+      "icon": "https://eos.com/wp-content/uploads/2024/05/icon-4.svg",
+      "link": "https://eos.com/es/products/crop-monitoring/custom-solutions/field-boundaries-detection/",
+      "advantages": [
+        "Identificación precisa de los límites de campo.",
+        "Análisis con imágenes satelitales de alta resolución.",
+        "Permite la planificación eficiente de cultivos y riego.",
+        "Ideal para la gestión de grandes extensiones agrícolas."
+      ]
+    },
+    {
+      "title": "Análisis de la humedad del suelo",
+      "description": [ "Mejore el proceso agrícola y sus análisis de las tendencias climáticas..."],
+      "image": "https://eos.com/wp-content/uploads/2024/05/solution-5.jpg.webp",
+      "icon": "https://eos.com/wp-content/uploads/2024/05/icon-5.svg",
+      "link": "https://eos.com/es/products/crop-monitoring/custom-solutions/soil-moisture-analytics/",
+      "advantages": [
+        "Datos actualizados cada 1-2 días sobre la humedad del suelo.",
+        "Medición de humedad en superficie y profundidad.",
+        "Optimización del riego para mejorar la eficiencia hídrica.",
+        "Reducción de riesgos por sequías o excesos de humedad."
+      ]
+    },
+    {
+      "title": "Modelización del carbono",
+      "description": [ "Ayude a frenar el cambio climático manteniendo el carbono a raya..."],
+      "image": "https://eos.com/wp-content/uploads/2024/05/Frame-146716191.png.webp",
+      "icon": "https://eos.com/wp-content/uploads/2024/05/icon-6.svg",
+      "link": "https://eos.com/es/products/crop-monitoring/custom-solutions/soil-organic-carbon/",
+      "advantages": [
+        "Estimación precisa del carbono orgánico en el suelo.",
+        "Reducción de costos en muestreo sin perder precisión.",
+        "Ayuda a mitigar el cambio climático con modelos SOC.",
+        "Optimización del manejo del suelo para conservar carbono."
+      ]
+    },
+    {
+      "title": "EOSDA Forest Monitoring",
+      "description": [ "Watch over your forest stands by remotely assessing forest cover..."],
+      "image": "https://eos.com/wp-content/uploads/2024/05/solution-7.jpg.webp",
+      "icon": "https://eos.com/wp-content/uploads/2024/05/icon-7.svg",
+      "link": "https://eos.com/es/products/forest-monitoring/",
+      "advantages": [
+        "Monitoreo de la salud y cobertura forestal.",
+        "Seguimiento de deforestación y reforestación.",
+        "Estimación de áreas quemadas por incendios.",
+        "Contribuye a la conservación del medio ambiente."
       ]
     }
   ]
