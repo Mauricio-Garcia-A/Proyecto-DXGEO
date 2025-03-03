@@ -1,0 +1,23 @@
+<svg width="1919" height="794" viewBox="0 0 1919 794" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1940.26 373.896L1842.62 329.633C1746.45 286.031 1551.17 197.506 1329.6 170.872C1108.03 144.238 857.242 178.174 631.704 160.288C407.291 142.49 204.992 72.0774 104.327 37.0396L102.821 36.5155L1.22043 1.00014" stroke="#313D49" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="9 9"/>
+<circle cx="27.0368" cy="27.0368" r="27.0368" transform="matrix(0.736451 -0.676491 -0.676491 -0.736451 1683.23 299.057)" fill="#5C5F63"/>
+<circle cx="52.2712" cy="52.2712" r="52.2712" transform="matrix(0.736451 -0.676491 -0.676491 -0.736451 1681.72 334.712)" fill="#5C5F63" fill-opacity="0.2"/>
+<circle cx="39.7885" cy="39.7885" r="39.7885" transform="matrix(0.736451 -0.676491 -0.676491 -0.736451 1682.47 317.076)" fill="#5C5F63" fill-opacity="0.4"/>
+<g clip-path="url(#clip0_2066_11526)">
+<mask id="mask0_2066_11526" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="1238" y="-203" width="906" height="905">
+<g opacity="0.3">
+<circle cx="233.829" cy="233.829" r="233.829" transform="matrix(0.500399 -0.865795 -0.865795 -0.500399 1776.57 568.66)" fill="#2F8FFC"/>
+<circle cx="452.069" cy="452.069" r="452.069" transform="matrix(0.500399 -0.865795 -0.865795 -0.500399 1856.31 866.813)" fill="#2F8FFC" fill-opacity="0.2"/>
+<circle cx="344.113" cy="344.113" r="344.113" transform="matrix(0.500399 -0.865795 -0.865795 -0.500399 1816.87 719.328)" fill="#2F8FFC" fill-opacity="0.4"/>
+</g>
+</mask>
+<g mask="url(#mask0_2066_11526)">
+<path d="M1689.98 249.359L1689.75 731.761L1432.43 694.969L1272.09 490.367L1689.98 249.359Z" fill="#5C5F63"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_2066_11526">
+<rect width="476.576" height="494.235" fill="white" transform="translate(1481.71 126.927) rotate(30)"/>
+</clipPath>
+</defs>
+</svg>
