@@ -63,6 +63,20 @@
 
   footer {
     margin-top: 100px;
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    .img-bg4 {
+      position: absolute;
+      width: 80%;
+      z-index: 1;
+      bottom: 0px;
+      max-width: 1400px;
+      min-width: 200px;
+    }
     
   }
 }
