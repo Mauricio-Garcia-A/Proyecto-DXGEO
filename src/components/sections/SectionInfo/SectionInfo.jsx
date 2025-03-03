@@ -83,12 +83,12 @@ export default function SectionInfo() {
           <h2>{sectionPerfilProfecional.title}</h2>
         </header>
 
-        <article className='perfil-profecional-section'>
+        <article className='perfil-profecional-article'>
 
           <div className='container-perfil'>
             <img src="./bg-perfil-3.png" alt="" className='img-perfil-1' />
             <img src="./bg-perfil-2.webp" alt="" className='img-perfil-2' />
-            <img src="./foto-perfil-2.png" alt="" className='img-perfil-3' />
+            <img src="./foto-perfil-3.png" alt="" className='img-perfil-3' />
             <div className='sec-perfil-text'>
               <h2>{sectionPerfilProfecional.name}</h2>
               {
@@ -96,7 +96,7 @@ export default function SectionInfo() {
                   <p key={index} dangerouslySetInnerHTML={{ __html: paragraph }} />
                 ))
               }
-              <button className='hero-button-perfil'>Mas info</button>
+              <button className='hero-button-perfil'>Ver perfil</button>
             </div>
           </div>
         </article>
