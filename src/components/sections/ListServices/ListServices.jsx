@@ -7,28 +7,26 @@ export default function ListServices() {
 console.log(listaServivios)
   // const ItemService = ({ title, description, icon, link, URL_Img, advantages }) => {
 
-  const ItemService = ({ title, description, icon, link, URL_Img, advantages }) => {
+  const ItemService = ({ title, description, icon, URL_Img, advantages }) => {
     return <div className='container-item-service'>
-      <article>
-        <img src={URL_Img} alt="img-service" />
-      </article>
-      <article>
+      <div className='container-image '>
+        <img src={URL_Img} alt="img-service" className='img-bg'/>
+      </div>
+      <article className='container-text'>
         <header>
-          <img src={icon} alt="" />
-          <h1>{title}</h1>
+          <img src={`./${icon}`} alt="" />
+          <h2>{title}</h2>
         </header>
         <div>
-        {description.map((parrafo, index) => (
-        <p key={index}>{parrafo}</p>
-      ))}
+          {description.map((parrafo, index) => (
+            <p key={index}>{parrafo}</p>
+          ))}
 
-      <ul>
-        {advantages.map((ventaja, index) => (
-          <li key={index}>✔ {ventaja}</li>
-        ))}
-      </ul>
-      <link rel="stylesheet" href={link} />
-
+          <ul>
+            {advantages.map((ventaja, index) => (
+              <li key={index}><span>✔ </span>{ventaja}</li>
+            ))}
+          </ul>
         </div>
       </article>
     </div>

@@ -1,0 +1,22 @@
+<svg width="519" height="510" viewBox="0 0 519 510" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_5017_153453)">
+<circle cx="351.483" cy="102.389" r="37.374" transform="rotate(-137.43 351.483 102.389)" fill="#5C5F63"/>
+<circle cx="351.482" cy="102.389" r="72.2565" transform="rotate(-137.43 351.482 102.389)" fill="#5C5F63" fill-opacity="0.2"/>
+<circle cx="351.483" cy="102.391" r="55.0012" transform="rotate(-137.43 351.483 102.391)" fill="#5C5F63" fill-opacity="0.4"/>
+<mask id="mask0_5017_153453" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="-18" y="-271" width="743" height="744">
+<g opacity="0.2">
+<circle cx="353.313" cy="101.032" r="191.906" transform="rotate(-60 353.313 101.032)" fill="#2F8FFC"/>
+<circle cx="353.315" cy="101.027" r="371.018" transform="rotate(-60 353.315 101.027)" fill="#2F8FFC" fill-opacity="0.2"/>
+<circle cx="353.311" cy="101.029" r="282.417" transform="rotate(-60 353.311 101.029)" fill="#2F8FFC" fill-opacity="0.4"/>
+</g>
+</mask>
+<g mask="url(#mask0_5017_153453)">
+<path d="M353.663 101.912L10.7921 299.869L142.46 467.727L353.663 497.825L353.663 101.912Z" fill="#5C5F63"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_5017_153453">
+<rect width="519" height="510" fill="white"/>
+</clipPath>
+</defs>
+</svg>
