@@ -21,7 +21,7 @@ export default function IntroServices() {
             <p>{parrafos[1]}</p>
           </div>
           <div className='container-img'>
-            <img src="./img-intro-service-1.webp" alt="" />
+            <img src="./img-intro-service-4.png" alt="" />
           </div>
         </article>
         <article className='article-intro'>
@@ -29,7 +29,7 @@ export default function IntroServices() {
             <p>{parrafos[2]}</p>
           </div>
           <div className='container-img'>
-            <img src="./img-intro-service-3.webp" alt="" />
+            <img src="./img-intro-service-5.png" alt="" />
           </div>
         </article>
       </section>
