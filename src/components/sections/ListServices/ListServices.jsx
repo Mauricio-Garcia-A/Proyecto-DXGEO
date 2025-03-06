@@ -4,13 +4,17 @@ import data from '../../../utils/services.json'
 
 export default function ListServices() {
   const listaServivios = data.items
-console.log(listaServivios)
+
   // const ItemService = ({ title, description, icon, link, URL_Img, advantages }) => {
 
-  const ItemService = ({ title, description, icon, URL_Img, advantages }) => {
+  const ItemService = ({ title, description, icon, URL_Img, advantages, icon_bg }) => {
     return <div className='container-item-service'>
-      <div className='container-image '>
-        <img src={URL_Img} alt="img-service" className='img-bg'/>
+      <div className='container-images'>
+        <div className='contener-img-bg' style={{backgroundImage:`url(${URL_Img})`}}>
+         {/* <img src={URL_Img} alt="img" className='img-bg' /> */}
+        </div>
+        <img src={`./${icon_bg}`} alt="icon" className='img-icon' />
+
       </div>
       <article className='container-text'>
         <header>
@@ -46,6 +50,7 @@ console.log(listaServivios)
                 advantages={service.advantages}
                 link={service.link}
                 icon={service.icon}
+                icon_bg={service.icon_bg}
               />
             </div>
           ))

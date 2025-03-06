@@ -3,8 +3,9 @@
     {
       "title": "Clasificación de cultivos",
       "description": [ "Explote el poder visual de los datos geoespaciales con los mapas de clasificación de cultivos..."],
-      "image": "https://eos.com/wp-content/uploads/2024/05/Frame-146716185.png.webp",
+      "image": "https://media.istockphoto.com/id/1401722160/es/foto/plantaci%C3%B3n-soleada-con-cultivo-de-soja.jpg?s=612x612&w=0&k=20&c=5ZTCnfPWntup-6i6G5cAhOniow_TWNFCacAaFipnI2o=",
       "icon": "icon-1.svg",
+      "icon_bg":"icon-item-sevice-1.png",
       "link": "https://eos.com/es/products/crop-monitoring/custom-solutions/crops-classification/",
       "advantages": [
         "Identificación precisa de cultivos mediante imágenes satelitales.",
@@ -18,6 +19,7 @@
       "description": [ "Adelántese a los acontecimientos con la predicción del rendimiento de los cultivos..."],
       "image": "https://eos.com/wp-content/uploads/2024/05/solution-2.jpg.webp",
       "icon": "icon-2.svg",
+      "icon_bg":"icon-item-sevice-2.png",
       "link": "https://eos.com/es/products/crop-monitoring/custom-solutions/yield-prediction/",
       "advantages": [
         "Predicción de rendimiento con hasta un 95% de precisión.",
@@ -31,6 +33,7 @@
       "description": [ "Obtenga una perspectiva más profunda del progreso de las operaciones de cosecha..."],
       "image": "https://eos.com/wp-content/uploads/2024/05/solution-3.jpg.webp",
       "icon": "icon-3.svg",
+      "icon_bg":"icon-item-sevice-3.png",
       "link": "https://eos.com/es/products/crop-monitoring/custom-solutions/harvest-monitoring/",
       "advantages": [
         "Monitoreo remoto del progreso de la cosecha en tiempo real.",
@@ -44,6 +47,7 @@
       "description": [ "Obtenga al instante una vista desde arriba de sus campos..."],
       "image": "https://eos.com/wp-content/uploads/2024/05/solution-4.jpg.webp",
       "icon": "icon-4.svg",
+      "icon_bg":"icon-item-sevice-4.png",
       "link": "https://eos.com/es/products/crop-monitoring/custom-solutions/field-boundaries-detection/",
       "advantages": [
         "Identificación precisa de los límites de campo.",
@@ -57,6 +61,7 @@
       "description": [ "Mejore el proceso agrícola y sus análisis de las tendencias climáticas..."],
       "image": "https://eos.com/wp-content/uploads/2024/05/solution-5.jpg.webp",
       "icon": "icon-5.svg",
+      "icon_bg":"icon-item-sevice-5.png",
       "link": "https://eos.com/es/products/crop-monitoring/custom-solutions/soil-moisture-analytics/",
       "advantages": [
         "Datos actualizados cada 1-2 días sobre la humedad del suelo.",
@@ -70,6 +75,7 @@
       "description": [ "Ayude a frenar el cambio climático manteniendo el carbono a raya..."],
       "image": "https://eos.com/wp-content/uploads/2024/05/Frame-146716191.png.webp",
       "icon": "icon-6.svg",
+      "icon_bg":"icon-item-sevice-1.png",
       "link": "https://eos.com/es/products/crop-monitoring/custom-solutions/soil-organic-carbon/",
       "advantages": [
         "Estimación precisa del carbono orgánico en el suelo.",
@@ -83,6 +89,7 @@
       "description": [ "Watch over your forest stands by remotely assessing forest cover..."],
       "image": "https://eos.com/wp-content/uploads/2024/05/solution-7.jpg.webp",
       "icon": "icon-7.svg",
+      "icon_bg":"icon-item-sevice-2.png",
       "link": "https://eos.com/es/products/forest-monitoring/",
       "advantages": [
         "Monitoreo de la salud y cobertura forestal.",
