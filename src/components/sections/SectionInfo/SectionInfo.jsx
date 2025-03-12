@@ -1,5 +1,6 @@
 import './SectionInfo.scss'
 import data from '../../../utils/info-presentacion.json'
+import CardFlip from '../../CardFlip/CardFlip'
 
 export default function SectionInfo() {
 
@@ -21,6 +22,18 @@ export default function SectionInfo() {
       <h3>{title}</h3>
       <p> {description} </p>
 
+    </div>
+  }
+
+  // eslint-disable-next-line react/prop-types
+  const ItemInfoBack = ({ key, title, icon, description }) => {
+    return <div className='item-Info-back' key={key}>
+      <div className='header-item'>
+        <h3>{title}</h3>
+        <hr />
+      </div>
+      <p> {description} </p>
+      <img src={`./${icon}`} alt="" />
     </div>
   }
 
@@ -72,7 +85,13 @@ export default function SectionInfo() {
         <article className='infomation-section-items '>
           {
             sectionInformation.items.map((item, index) => (
-              <ItemInfo key={index} title={item.title} icon={item.icon} description={item.description} />
+              <div key={index} className='container-item'>     
+                <CardFlip >
+                  <ItemInfoBack key={index} title={item.title} icon={item.icon} description={item.description[1]} />
+                  <ItemInfo key={index} title={item.title} icon={item.icon} description={item.description[0]} />
+                </CardFlip>
+              </div>
+              
             ))
           }
         </article>
@@ -101,6 +120,7 @@ export default function SectionInfo() {
           </div>
         </article>
       </section>
+
       <footer>
         <img src="./decoration1.svg" alt="" className='img-bg4' />
       </footer>

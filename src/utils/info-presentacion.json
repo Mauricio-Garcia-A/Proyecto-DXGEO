@@ -18,17 +18,23 @@
         {
           "icon":"icon-mision.svg",
           "title":"Misión",
-          "description": "Gestionar la geo información disponible para aumentar la capacidad productiva, mejorando su eficiencia de costos y producción, contribuyendo con el medioambiente"
+          "description": ["Gestionar la geo información disponible para aumentar la capacidad productiva, mejorando su eficiencia de costos y producción, contribuyendo con el medioambiente",
+            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore quisquam aperiam eum! Sit esse voluptate aperiam, at labore iste libero nesciunt voluptates, molestias alias maiores numquam maxime aut, laboriosam impedi"
+          ]
         },
         {
           "icon":"icon-vision.svg",
           "title":"Visión",
-          "description": "Ofrecer un servicio digital e innovador para todo el mercado de la región."
+          "description": ["Ofrecer un servicio digital e innovador para todo el mercado de la región.",
+            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore quisquam aperiam eum! Sit esse voluptate aperiam, at labore iste libero nesciunt voluptates, molestias alias maiores numquam maxime aut, laboriosam impedi"
+          ]
         },
         {
           "icon":"icon-objetivos.svg",
           "title":"Objetivos",
-          "description": "Ser una empresa reconocida por la implementación de tecnologías sustentables y amigables con el medio ambiente ayudando al crecimiento del sector agropecuario de America Latina."
+          "description": ["Ser una empresa reconocida por la implementación de tecnologías sustentables y amigables con el medio ambiente ayudando al crecimiento del sector agropecuario de America Latina.",
+            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore quisquam aperiam eum! Sit esse voluptate aperiam, at labore iste libero nesciunt voluptates, molestias alias maiores numquam maxime aut, laboriosam impedi"
+          ]
         }
       ]
     },

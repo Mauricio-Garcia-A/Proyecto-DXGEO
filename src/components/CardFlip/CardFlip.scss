@@ -1,0 +1,37 @@
+.container-card {
+  position: relative;
+
+  .card {
+   
+    cursor: pointer;
+
+    .face {
+      position: absolute;
+   
+      backface-visibility: hidden;
+      border-radius: 10px;
+      overflow: hidden;
+      transition: all ease 2s;
+    }
+
+    .front {
+      
+      transform: perspective(600px) rotateY(0deg);
+    }
+    .back {
+      transform: perspective(600px) rotateY(180deg);
+    }
+
+    .front-active {
+        transform: perspective(600px) rotateY(180deg);
+      }
+  
+    .back-active{
+     
+
+        transform: perspective(600px) rotateY(360deg);
+      }
+    
+  }
+
+}
