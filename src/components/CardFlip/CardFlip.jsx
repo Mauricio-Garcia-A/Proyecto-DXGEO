@@ -3,7 +3,6 @@ import { useState } from "react";
 
 
 export default function CardFlip({children}) {
-  console.log(children)
   const [flipped, setFlipped] = useState(false);
 
   return (
