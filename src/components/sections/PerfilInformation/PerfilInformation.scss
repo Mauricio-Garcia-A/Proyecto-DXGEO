@@ -1,0 +1,208 @@
+.container-perfil-infomation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background: #000a14;
+
+  .section-standar {
+    width: 100%;
+    max-width: 1500px;
+    //min-height: 500px;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+
+    padding-left: 20px;
+    padding-right: 20px;
+
+    h1 {
+      text-align: center;
+      margin-bottom: 40px;
+      font-size: 27pt;
+      color: white;
+
+    }
+
+    h2 {
+      font-size: 2rem;
+      text-align: center;
+      color: white;
+
+
+
+    }
+
+    p {
+      font-size: 1.2rem;
+      margin: 10px;
+      color: #c1cfdb;
+    }
+
+    article {
+      z-index: 3;
+
+      width: 90%;
+      color: aliceblue;
+      padding-left: 5%;
+      padding-right: 5%;
+      max-width: 1024px;
+
+    }
+
+  }
+
+  .article-perfil-information {
+
+    background: rgb(87, 190, 143);
+    background: linear-gradient(60deg, rgba(87, 190, 144, 0.759) 0%, rgba(87, 190, 144, 0.54) 10%, rgba(24, 32, 39, 0.381) 29%, rgba(24, 32, 39, 0.627) 70%, rgba(87, 190, 144, 0.348) 100%);
+
+    min-height: 70vh;
+    border-radius: 20px;
+
+
+    margin-top: 60px;
+    margin-bottom: 100px;
+    padding-bottom: 70px;
+
+    position: relative;
+
+    header {
+      position: relative;
+      border-bottom: #f27e30 1px solid;
+      width: 100%;
+      height: 130px;
+      margin-bottom: 30px;
+
+      h1 {
+        color: rgba(255, 255, 255, 0.904);
+        z-index: 2;
+        position: relative;
+        font-size: 30pt;
+        padding-right: 100px;
+        padding-top: 50px;
+
+      }
+
+
+      .img-perfil-1 {
+        position: absolute;
+        bottom: 0;
+        left: -50PX;
+        width: 200px;
+
+      }
+
+      .img-perfil-2 {
+        position: absolute;
+        right: -50PX;
+        top: -60PX;
+        width: 200px;
+
+
+      }
+
+      .img-perfil-3 {
+        position: absolute;
+        bottom: 0;
+        right: 100px;
+        width: 180px;
+        transform: scaleX(1);
+
+      }
+
+
+
+
+      @media (max-width: 900px) {
+        h1 {
+          width: 200px;
+          padding-left: 25%;
+          padding-top: 20px;
+        }
+      }
+
+      @media (max-width: 730px) {
+        h1 {
+          width: 200px;
+          padding-left: 15%;
+        }
+      }
+
+      @media (max-width: 650px) {
+        h1 {
+          padding-left: 30%;
+          text-align: start;
+        }
+
+        .img-perfil-3 {
+          width: 130px;
+          right: 14px;
+        }
+
+        .img-perfil-2 {
+          width: 120px;
+          right: -35px;
+          top: -30px;
+        }
+
+        .img-perfil-1 {
+          width: 180px;
+
+        }
+      }
+
+      @media (max-width: 500px) {
+        h1 {
+          padding-left: 10%;
+          text-align: start;
+        }
+      }
+
+    }
+
+    .sector-linkedin {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      
+
+      a {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: start;
+        align-items: center;
+        width: 200px;
+
+        p {
+          color: rgb(13, 98, 100);
+          padding-bottom: 8px;
+
+        }
+
+        svg {
+          width: 25px;
+          fill: rgb(13, 98, 100);
+        }
+
+        
+      }
+
+      &:hover {
+        a {
+          svg {fill: #65d5e2be;}
+          p {color: #65d5e2be;} 
+        }
+        
+      }
+      
+    }
+
+  }
+}

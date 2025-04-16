@@ -14,8 +14,9 @@
   .section-standar {
     width: 100%;
     max-width: 1500px;
-    //min-height: 500px;
+    min-height: 500px;
     position: relative;
+    //background: red;
 
     display: flex;
     flex-direction: column;
@@ -384,11 +385,14 @@
       bottom: 0;
       left: -100PX;
       height: 350px;
+      @view-transition-name: img1;
     }
     .img-perfil-2 {
       position: absolute;
       right: -50PX;
       top: -100PX;
+      @view-transition-name: img2;
+
         
     }
     .img-perfil-3 {
@@ -397,6 +401,8 @@
       left: 50px;
       height: 300px;
       transform: scaleX(-1);
+      @view-transition-name: img3;
+
 
     }
   }
@@ -441,6 +447,7 @@
   text-align: center;
   color: rgba(255, 255, 255, 0.167);
   background: #f36f181f;
+  margin-top: 10px;
 
 
 
@@ -451,4 +458,8 @@
     background: #f567086a;
     box-shadow: 0 0px 15px rgba(241, 64, 0, 0.249);
   }
+}
+
+@view-transition {
+  navigation: auto;
 }

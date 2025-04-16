@@ -1,6 +1,7 @@
 import './SectionInfo.scss'
 import data from '../../../utils/info-presentacion.json'
 import CardFlip from '../../CardFlip/CardFlip'
+import { NavLink } from 'react-router'
 
 export default function SectionInfo() {
 
@@ -115,7 +116,7 @@ export default function SectionInfo() {
                   <p key={index} dangerouslySetInnerHTML={{ __html: paragraph }} />
                 ))
               }
-              <button className='hero-button-perfil'>Ver perfil</button>
+              <NavLink to="/Proyecto-DXGEO/Perfil-profecional" className='hero-button-perfil' onClick={() => window.scrollTo(0, 0)}>Ver perfil</NavLink>
             </div>
           </div>
         </article>
