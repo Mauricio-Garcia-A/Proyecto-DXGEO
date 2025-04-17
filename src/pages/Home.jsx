@@ -1,3 +1,4 @@
+import LoadingComponent from "../components/LoadingComponent/LoadingComponent"
 import Presentation from "../components/sections/Presentation/Presentation"
 import SectionInfo from "../components/sections/SectionInfo/SectionInfo"
 import useSEO from "../hooks/useSEO"
