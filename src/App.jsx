@@ -6,6 +6,7 @@ import Services from "./pages/Services"
 import Perfil from "./pages/Perfil"
 import LoadingComponent from "./components/LoadingComponent/LoadingComponent"
 import { useEffect, useState } from "react"
+import Products from "./pages/Products"
 
 
 function App() {
@@ -41,6 +42,7 @@ function App() {
               <Routes>
                 <Route path="/Proyecto-DXGEO/" element={<Home />} />
                 <Route path="/Proyecto-DXGEO/Servicios" element={<Services />} />
+                <Route path="/Proyecto-DXGEO/Productos" element={<Products />} />
                 <Route path="/Proyecto-DXGEO/Perfil-profecional" element={<Perfil />} />
                 <Route path="/Proyecto-DXGEO/*" element={<div>ERROR</div>} />
                 <Route path="*" element={<div>ERROR</div>} />

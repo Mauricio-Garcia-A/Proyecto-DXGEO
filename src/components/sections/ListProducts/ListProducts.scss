@@ -1,0 +1,143 @@
+.section-list-products {
+
+  .container-items-product {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items:center;
+
+    gap: 40px;
+    margin-top: 50px;
+
+  }
+}
+
+.conteiner-item-product {
+
+   width: 100%;
+
+  border: 2px solid rgba(41, 39, 39, 0.519);
+  background: rgba(138, 130, 130, 0.162);
+  border-radius: 20px;
+  overflow: hidden;
+
+  margin: 0 !important;
+  padding: 0 !important;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+ 
+
+  .container-images {
+    position: relative;
+    //background: red;
+    
+
+    
+    .contener-img-bg {
+      border-radius: 0px 0px 20px 0px;
+
+      z-index: 3;
+     
+      clip-path: polygon(
+        100% 0%, 71% 84%, 69% 88%, 67% 91%, 65% 93%,
+        63% 95%, 60% 97%, 57% 98%, 53% 99%, 49% 100%,
+        45% 100%, 0% 100%, 0% 0%
+      );
+      height: 350px;
+      
+      
+    
+
+      .img-bg {
+           width: 150%;
+          
+          }
+    }
+
+    .img-icon {
+      position: absolute;
+      z-index: 4;
+      top: 100px;
+      right: 0px;
+      //background: rgb(255, 255, 255);
+      width: 200px;
+      filter: drop-shadow(0 3px 3px rgb(0, 0, 0));
+      transform: scaleX(1);
+
+
+    }
+  }
+
+  .container-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 0;
+
+    p {
+      font-size: 1.2rem;
+      margin: 10px;
+      color: #c1cfdb;
+    }
+ 
+    header {
+      h1 {
+        margin: 0;
+        padding: 0;
+      }
+      p {
+        font-size: 8pt;
+        margin: 0;
+        padding: 0;
+      }
+      
+    }
+    footer {
+      margin: 0;
+    }
+  }
+
+
+  @media (max-width: 950px) {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    .container-images {
+      width: 80%;
+      height: auto;
+      display: flex;
+      flex-direction: row;
+      justify-content: start;
+      .contener-img-bg {
+      width: 100%;
+      max-height: 250px;
+      border-radius: 0px 0px 0px 0px;
+
+      
+      }
+      .img-icon {
+        position: absolute;
+        z-index: 4;
+        top: 100px;
+        right: -100px;
+   
+
+      }
+    }
+    
+    .container-text {
+      margin: 20px;
+      text-align: center;
+      width: 90%;
+      margin-top: 40px;
+      margin-bottom: 40px;
+    }
+  }
+
+}

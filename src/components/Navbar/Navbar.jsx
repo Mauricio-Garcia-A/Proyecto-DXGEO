@@ -14,6 +14,9 @@ export default function Navbar() {
               <NavLink to="/Proyecto-DXGEO/Servicios" className="hover-effect" onClick={() => window.scrollTo(0, 0)}>SERVICIOS</NavLink>
             </li>
             <li>
+              <NavLink to="/Proyecto-DXGEO/Productos" className="hover-effect" onClick={() => window.scrollTo(0, 0)}>PRODUCTOS</NavLink>
+            </li>
+            <li>
               <a href='#formas-de-contacto' className="hover-effect">CONTACTOS</a>
             </li>
           </ul>
